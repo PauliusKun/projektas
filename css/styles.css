@@ -164,14 +164,13 @@ body {
     color: #11999E;
 }
 
-[type="date"] {
-/*	background: url(calendar-icon2.svg) 100% 50% no-repeat;*/
-  background: url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% no-repeat ;
+.date-input {
+  background: url(calendar-icon.png) 97% no-repeat;
 }
-[type="date"]::-webkit-inner-spin-button {
+.date-input::-webkit-inner-spin-button {
   display: none;
 }
-[type="date"]::-webkit-calendar-picker-indicator {
+date-input::-webkit-calendar-picker-indicator {
   opacity: 0;
 }
 
@@ -255,9 +254,7 @@ body {
 	}
 	.date-input {
 		height: 28px;
-	}
-	[type="date"] {
-  	background: #EAF6F6;
+  		background: #EAF6F6;
 		}
 }
 
