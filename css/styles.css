@@ -170,7 +170,7 @@ body {
 .date-input::-webkit-inner-spin-button {
   display: none;
 }
-date-input::-webkit-calendar-picker-indicator {
+.date-input::-webkit-calendar-picker-indicator {
   opacity: 0;
 }
 
@@ -254,7 +254,6 @@ date-input::-webkit-calendar-picker-indicator {
 	}
 	.date-input {
 		height: 28px;
-  		background: #EAF6F6;
 		}
 }
 
