@@ -237,9 +237,6 @@ body {
 	.select-return-place {
 		width: auto;
 	}
-	[type="date"] {
-  	background: #EAF6F6;
-		}
 }
 @media all and (max-width: 600px) {
 	.search-form-and-banner {
@@ -259,6 +256,9 @@ body {
 	.date-input {
 		height: 28px;
 	}
+	[type="date"] {
+  	background: #EAF6F6;
+		}
 }
 
 					/*4. Aside*/
