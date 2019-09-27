@@ -33,7 +33,7 @@ body {
     justify-content:space-between;
 	flex-direction: row;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 50px;
 }
 
 .logo {
@@ -79,7 +79,7 @@ body {
 	justify-content:flex-end;
 	flex-direction: row;
 /*	margin: 0 10px; */
-	padding: 0 30px;
+	padding: 0 50px;
 }
 
 .nav-bar a {
@@ -166,7 +166,7 @@ body {
 
 [type="date"] {
 /*	background: url(calendar-icon2.svg) 100% 50% no-repeat;*/
-  background: url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+  background: url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% no-repeat ;
 }
 [type="date"]::-webkit-inner-spin-button {
   display: none;
@@ -183,6 +183,7 @@ body {
     border-radius: 4px;
     font-size: 14px;
     color: #11999E;
+	height: 18px;
 }
 
 .select-time {
@@ -249,6 +250,9 @@ body {
 	    }
 	.select-date-and-time {
 		flex-flow: column;
+	}
+	.select-pickup-place, .select-return-place, .date-input, .select-time {
+		height: 30px;
 	}
 }
 
