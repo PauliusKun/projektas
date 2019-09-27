@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="lt">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bluerent</title>
+        <link rel="stylesheet" href="css/styles.css" type="text/css">
+		<link rel="icon" href="images/favicon.ico">
+    </head>
+    <body>
+		
+					<!-- 1. Header -->
+		
+        <header id="header" class="header-flex">
+            <div class="logo">
+				<img src="images/bluerent-logo.svg" alt="logo">
+			</div>
+			<div class="top-telephone-and-mail">
+				<div>
+					<img class="hours-icon" src="images/hours-support-icon.svg" alt="hours-icon">
+				</div>
+				<div>
+					<p>+37068663132</p>
+				</div>
+				<div> 
+					<img class="mail-icon" src="images/eta-icon.svg" alt="mail-icon">
+				</div>
+				<div>
+					<p>info@bluerent.lt</p>
+				</div>
+			</div>
+            <div class="select-language">
+                <select>
+                    <option value="LT">LT</option>
+                    <option value="EN">EN</option>
+                </select>
+            </div>
+        </header>
+        
+					<!-- 2. Nav bar -->
+		
+        <nav id="nav-bar" class="nav-bar">
+            <div><a href="#about">Apie mus</a></div>
+            <div><a href="#services">Paslaugos</a></div>
+            <div><a href="documents/salygos.pdf" target="_blank">Sąlygos</a></div>
+            <div><a href="#contacts">Kontaktai</a></div>
+        </nav>
+		        
+					<!--3. Article -->
+		
+        <main id="main-window">
+			<article id="search-form-and-banner" class="search-form-and-banner">
+				<div class="car-search-window">
+					<h3>Automobilio nuomos paieška</h3>
+					<form class="form-section">
+						<label for="choose-pickup-place">Paėmimas</label>
+						<div class="select-date-and-time">
+							<select class="select-pickup-place" name="pickup-place">
+								<option value="nothing-choose" hidden>Paėmimo vieta</option>
+								<option value="vilniaus ofisas">Vilniaus ofisas, Priegliaus 17</option>
+								<option value="vno">Vilniaus Oro Uostas (VNO)</option>
+								<option value="kun">Kauno Oro Uostas (KUN)</option>
+								<option value="plq">Palangos Oro Uostas (PLQ)</option>
+								<option value="other">Kita vieta</option>
+							</select>
+							<input class="date-input" type="date" name="date" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}">
+							<select class="select-time" name="time">
+								<option value="" hidden>Laikas</option>
+								<option>00:00</option>
+								<option>00:30</option>
+								<option>01:00</option>
+								<option>01:30</option>
+								<option>02:00</option>
+								<option>02:30</option>
+								<option>03:00</option>
+								<option>03:30</option>
+								<option>04:00</option>
+								<option>04:30</option>
+								<option>05:00</option>
+								<option>05:30</option>
+								<option>06:00</option>
+								<option>06:30</option>
+								<option>07:00</option>
+								<option>07:30</option>
+								<option>08:00</option>
+								<option>08:30</option>
+								<option>09:00</option>
+								<option>09:30</option>
+								<option>10:00</option>
+								<option>10:30</option>
+								<option>11:00</option>
+								<option>11:30</option>
+								<option>12:00</option>
+								<option>12:30</option>
+								<option>13:00</option>
+								<option>13:30</option>
+								<option>14:00</option>
+								<option>14:30</option>
+								<option>15:00</option>
+								<option>15:30</option>
+								<option>16:00</option>
+								<option>16:30</option>
+								<option>17:00</option>
+								<option>17:30</option>
+								<option>18:00</option>
+								<option>18:30</option>
+								<option>19:00</option>
+								<option>19:30</option>
+								<option>20:00</option>
+								<option>20:30</option>
+								<option>21:00</option>
+								<option>21:30</option>
+								<option>22:00</option>
+								<option>22:30</option>
+								<option>23:00</option>
+								<option>23:30</option>
+							</select>
+						</div>
+						<label for="choose-return-place">Grąžinimas</label>
+						<div class="select-date-and-time">
+							<select class="select-return-place" name="return-place">
+								<option value="nothing-choose" hidden>Grąžinimo vieta</option>
+								<option value="vilniaus ofisas">Vilniaus ofisas, Priegliaus 17</option>
+								<option value="vno">Vilniaus Oro Uostas (VNO)</option>
+								<option value="kun">Kauno Oro Uostas (KUN)</option>
+								<option value="plq">Palangos Oro Uostas (PLQ)</option>
+								<option value="other">Kita vieta</option>
+							</select>
+							<input class="date-input" type="date" name="date" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}">
+							<select class="select-time" name="time">
+								<option value="" hidden>Laikas</option>
+								<option>00:00</option>
+								<option>00:30</option>
+								<option>01:00</option>
+								<option>01:30</option>
+								<option>02:00</option>
+								<option>02:30</option>
+								<option>03:00</option>
+								<option>03:30</option>
+								<option>04:00</option>
+								<option>04:30</option>
+								<option>05:00</option>
+								<option>05:30</option>
+								<option>06:00</option>
+								<option>06:30</option>
+								<option>07:00</option>
+								<option>07:30</option>
+								<option>08:00</option>
+								<option>08:30</option>
+								<option>09:00</option>
+								<option>09:30</option>
+								<option>10:00</option>
+								<option>10:30</option>
+								<option>11:00</option>
+								<option>11:30</option>
+								<option>12:00</option>
+								<option>12:30</option>
+								<option>13:00</option>
+								<option>13:30</option>
+								<option>14:00</option>
+								<option>14:30</option>
+								<option>15:00</option>
+								<option>15:30</option>
+								<option>16:00</option>
+								<option>16:30</option>
+								<option>17:00</option>
+								<option>17:30</option>
+								<option>18:00</option>
+								<option>18:30</option>
+								<option>19:00</option>
+								<option>19:30</option>
+								<option>20:00</option>
+								<option>20:30</option>
+								<option>21:00</option>
+								<option>21:30</option>
+								<option>22:00</option>
+								<option>22:30</option>
+								<option>23:00</option>
+								<option>23:30</option>
+							</select>
+						</div>
+					</form>
+					<div class="button-place">
+						<button class="button">Ieškoti pasiūlymo</button>
+					</div>
+				</div>
+
+					<!--5. Aside-->
+
+				<aside class="banner-window">
+<!--
+					<div>
+						<img src="images/hybrid-car-1.jpg" alt="hybrid-car">
+					</div>
+-->
+<!--				</aside>-->
+					
+					
+				<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+<!--    <div class="numbertext">1 / 3</div>-->
+    <img src="images/hybrid-car-1.jpg" style="width:100%">
+    <div class="text">Platus hibridinių automobilių pasirinkimas</div>
+  </div>
+
+  <div class="mySlides fade">
+<!--    <div class="numbertext">2 / 3</div>-->
+    <img src="images/hybrid-car-2.jpg" style="width:100%">
+    <div class="text">Gausi komplektacija ir nemokama papildoma įranga</div>
+  </div>
+
+  <div class="mySlides fade">
+<!--    <div class="numbertext">3 / 3</div>-->
+    <img src="images/hybrid-car-3.jpg" style="width:100%">
+    <div class="text">Taupūs bei stilingi krosoveriai ir visureigiai </div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<!--
+<div>
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+-->
+				
+				</aside>			
+				
+				
+				
+				
+				
+			</article>
+			<div class="benefits">
+				<div>
+					<img src="images/eco-label.svg" alt="eco-label"><br>
+					<span>Ekologiški ir taupūs automobiliai</span>
+				</div>
+				<div>
+					<img src="images/ecommerce.svg" alt="ecomerce-label"><br>
+					<span>Paprastas ir greitas užsakymas</span>
+				</div>
+				<div>
+					<img src="images/hand-shake.svg" alt="hand-shake-label"><br>
+					<span>Profesionalumas, lankstumas, lojalumas</span>
+				</div>
+        	</div>
+		</main>
+		
+					<!--Section1 About us-->
+		
+		<section id="about" class="about-us">
+			<div>
+				<h3>Apie mus</h3>
+			</div>
+			<div>
+				<p><b>Bluerent</b> – novatoriška įmonė, teikianti trumpalaikę bei igalaikę hibridinių ir elektrinių automobilių nuomą. Išanalizavome rinką, dabartinę situaciją ir klientų lūkesčius todėl Jums pasiūlysime profesionalias, aukštos kokybės paslaugas bei modernius, naujos kartos automobilius. Su Bluerent automobiliais ne tik sutaupysite, bet ir tausosite gamtą.</p>
+				<p><b>Mūsų vertybės:</b> patikimumas, lojalumas, lankstumas, darbuotojų profesionalumas, bei kliento šypsena.</p>
+			</div>
+			<h4>Mus verta rinktis nes:</h4>
+			<div class="advantages-list">
+				<div>
+					<ul>
+						<li>Nauji, patikimi bei taupūs automobiliai</li>
+						<li>Gera automobilių komplektacija</li>
+						<li>Greita ir patogi rezervacija</li>
+						<li>Profesionalus ir greitas aptarnavimas</li>
+						<li>Rezervacijos keitimas/atšaukimas</li>
+						<li>Pakaitinis automobilis</li>
+						<li>Informacija ir pagalba kelyje 24/7 </li>
+					</ul>
+				</div>
+				<div>
+					<ul>
+						<li>Lojalumo sistema</li>
+						<li>Lanksčios sąlygos</li>
+						<li>Civilinės atsakomybės draudimas</li>
+						<li>Mažas depozitas</li>
+						<li>Nėra oro uosto mokečio</li>
+						<li>Nemokamas automobilio pristatymas</li>
+						<li>Nemokama papildoma įranga</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		
+					<!--Section2 Services-->
+		
+		<section id="services">
+			<div>
+				<h3>Paslaugos</h3>
+			</div>
+			<div class="services-container">
+				<div>
+					<h4>Trumpalaikė nuoma</h4>
+					<ul>
+						<li>Nuo 1 paros iki mėnesio</li>
+						<li>Nemokamas pristatymas mieste</li>
+						<li>Nemokamas parkavimas mieste (elektromobiliai)</li>
+						<li>Pakaitinis automobilis darudiminio įykio atveju</li>
+						<li>Pagalba ir informacija visą parą</li>
+					</ul>
+				</div>
+				<div>
+					<h4>Ilgalaikė nuoma</h4>
+					<ul>
+						<li>Nuo 1 mėnesio</li>
+						<li>Periodiniai techniniai aptarnavimai</li>
+						<li>Draudiminių įvykių administravimas</li>
+						<li>Pakaitinis automobilis draudiminio įvykio atveju</li>
+						<li>Sezoninių padangų keitimas</li>
+						<li>Kartą į mėnesį - automobilio vidaus ir išorės valymas</li>
+						<li>Pagalba ir informacija visą parą</li>
+					</ul>
+				</div>
+				<div>
+					<h4>Nuoma su vairuotoju/keleivių pervežimas</h4>
+					<ul>
+						<li>Automobilis su vairuotoju</li>
+						<li>Jūsų pasirinktas automobilis, maršrutas ir laikas</li>
+						<li>Patyrę, mandagūs ir paslaugūs vairuotojai</li>
+						<li>Keleivių pasitikimas oro uoste</li>
+						<li>Fizinė klientų apsauga</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		
+					<!-- Section3 Contacts -->
+		
+		<section id="contacts">
+			<div>
+				<h3>Kontaktai</h3>
+			</div>
+			<div class="company-details">
+				<div>
+					<p>
+						Įmonės rekvizitai:<br><br>
+						UAB „Evelpa“, įm. kodas - 302781013<br>
+						Adresas: J.Savickio g. 4, Vilnius <br>
+						Telefonas: +37068663132<br>
+						El. paštas: info@bluerent.lt
+					</p>
+				</div>
+				<div>
+					<a href="https://www.vilnius-airport.lt/" target="_blank">
+					<img class="vno-logo" src="images/vno-logo.png" alt="Vilnius Airport">
+					</a>
+					<p>Rodūnios kelias 10a, Vilnius, LT-02189, Lietuva</p>
+				</div>
+				<div>
+					<a href="https://www.kaunas-airport.lt/" target="_blank">
+					<img src="images/kun-logo.png" alt="Kaunas Airport">
+					</a>
+					<p>Oro uosto g. 4, Karmėlava, LT-54460, Lietuva</p>
+				</div>
+				<div>
+					<a href="https://www.palanga-airport.lt/" target="_blank">
+					<img class="plq-logo" src="images/plq-logo.png" alt="Palanga Airport">
+					</a>
+					<p>Liepojos pl. 1, Palanga, LT-00169, Lietuva</p>
+				</div>
+			</div>
+		</section>
+
+					<!--Footer-->
+
+		<footer>
+			<div id="footer" class="footer">
+				<a href="https://linkedin.com/in/paulius-kundrutas-30739920" target="_blank">LinkedIn</a>
+				<a href="https://www.facebook.com/pauleoo" target="_blank">Facebook</a>
+				<a href="https://www.instagram.com/pauliuskundrutas/Instagram" target="_blank">Instagram</a>
+				<p class="copyright">© 2019 Bluerent</p>
+			</div>
+		</footer>
+		
+	<script>
+		
+		
+		
+		
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+		  	var i;
+		  	var slides = document.getElementsByClassName("mySlides");
+		  	for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+			}
+		  	slideIndex++;
+		  	if (slideIndex > slides.length) {slideIndex = 1}
+		  	slides[slideIndex-1].style.display = "block";
+		  	setTimeout(showSlides, 6000); // Change image every 2 seconds
+		}
+		</script>
+    </body>
+</html>
