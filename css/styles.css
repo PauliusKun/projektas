@@ -237,8 +237,10 @@ body {
 	.select-return-place {
 		width: auto;
 	}
+	[type="date"] {
+  	background: #EAF6F6;
+		}
 }
-
 @media all and (max-width: 600px) {
 	.search-form-and-banner {
 		justify-content: center;
@@ -251,8 +253,11 @@ body {
 	.select-date-and-time {
 		flex-flow: column;
 	}
-	.select-pickup-place, .select-return-place, .date-input, .select-time {
+	.select-pickup-place, .select-return-place, .select-time {
 		height: 30px;
+	}
+	.date-input {
+		height: 28px;
 	}
 }
 
