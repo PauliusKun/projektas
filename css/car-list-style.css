@@ -92,3 +92,9 @@
 	}
 }
 
+@media all and (max-width: 470px) {
+	.car-offer-bar {
+		flex-flow: row wrap;
+		font-size: 100%;
+	}
+
