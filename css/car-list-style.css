@@ -79,7 +79,7 @@
 @media all and (max-width: 600px) {
 	.car-offer-bar {
 		flex-flow: row wrap;
-		font-size: 80%;
+		font-size: 65%;
 	}
 	.car-rental-period {
 		text-align: center;
