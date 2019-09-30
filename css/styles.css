@@ -194,7 +194,7 @@ body {
 /*	font-weight: bold;*/
     background-color: #EAF6F6;
     color: #11999E;
-    font-size: 14px;
+    font-size: 16px;
 	border: 1px solid #11999E;
     border-radius: 4px;
 }
@@ -259,7 +259,7 @@ body {
 	}
 	.date-input {
 		height: 28px;
-		width: 100%;
+		width: auto;
 		}
 }
 
