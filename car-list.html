@@ -9,9 +9,9 @@
 		<link rel="icon" href="images/favicon.ico">
     </head>
     <body>
-		
+
 					<!-- 1. Header -->
-		
+
         <header id="header" class="header-flex">
             <div class="logo">
 				<img src="images/bluerent-logo.svg" alt="logo">
@@ -23,7 +23,7 @@
 				<div>
 					<p>+37068663132</p>
 				</div>
-				<div> 
+				<div>
 					<img class="mail-icon" src="images/eta-icon.svg" alt="mail-icon">
 				</div>
 				<div>
@@ -37,35 +37,35 @@
                 </select>
             </div>
         </header>
-        
+
 					<!-- 2. Nav bar -->
-		
+
         <nav id="nav-bar" class="nav-bar">
             <div><a href="index.html#about">Apie mus</a></div>
             <div><a href="index.html#services">Paslaugos</a></div>
             <div><a href="documents/salygos.pdf" target="_blank">Sąlygos</a></div>
             <div><a href="index.html#contacts">Kontaktai</a></div>
         </nav>
-		
+
 					<!--3. Main-->
-		
+
 		<main>
 			<div class="car-rental-period">
 				<div>
 					<h5>Automobilio paėmimas</h5>
 					<div class="display-inline">
-						<span id="pickup-place">Vilniaus oro uostas (VNO)</span>
-						<span id="pickup-date">2019-09-29</span>
-						<span id="pickup-time">15:30</span>
+						<span id="pickup-place"></span>
+						<span id="pickup-date"></span>
+						<span id="pickup-time"></span>
 					</div>
 					<h6><a href="index.html">Redaguoti</a></h6>
 				</div>
 				<div>
 					<h5>Automobilio grąžinimas</h5>
 					<div class="display-inline">
-						<span id="return-place">Vilniaus oro uostas (VNO)</span>
-						<span id="return-date">2019-10-01</span>
-						<span id="return-time">15:30</span>
+						<span id="return-place"></span>
+						<span id="return-date"></span>
+						<span id="return-time"></span>
 					</div>
 					<h6><a href="index.html">Redaguoti</a></h6>
 				</div>
@@ -90,27 +90,12 @@
 							<td>Mechaninė</td>
 						</tr>
 						<tr>
-							<td></td>
-							<td></td>
 							<td>Kaina:</td>
 							<td><big>€34 </big><small>(€17/parai)</small></td>
 							<td><button id="continue-with-pay-now" class="button">Pasirinkti</button></td>
 						</tr>
 					</table>
 				</div>
-<!--
-				<div class="price-table">
-					<h4>Apmokant vėliau:</h4>
-					<table>
-						<tr>
-							<td><big>€42 </big><small>(€21/parai)</small></td>
-						</tr>
-						<tr>
-							<td><button id="continue-with-pay-later" class="button">Tęsti</button></td>
-						</tr>
-					</table>
-				</div>
--->
 			</div>
 			<div class="car-offer-bar">
 				<div class="yaris-image">
@@ -132,8 +117,6 @@
 							<td>Automatinė</td>
 						</tr>
 						<tr>
-							<td></td>
-							<td></td>
 							<td>Kaina:</td>
 							<td><big>€40 </big><small>(€20/parai)</small></td>
 							<td><button id="continue-with-pay-now" class="button">Pasirinkti</button></td>
@@ -161,8 +144,6 @@
 							<td>Automatinė</td>
 						</tr>
 						<tr>
-							<td></td>
-							<td></td>
 							<td>Kaina:</td>
 							<td><big>€50 </big><small>(€25/parai)</small></td>
 							<td><button id="continue-with-pay-now" class="button">Pasirinkti</button></td>
@@ -190,8 +171,6 @@
 							<td>Automatinė</td>
 						</tr>
 						<tr>
-							<td></td>
-							<td></td>
 							<td>Kaina:</td>
 							<td><big>€60 </big><small>(€30/parai)</small></td>
 							<td><button id="continue-with-pay-now" class="button">Pasirinkti</button></td>
@@ -219,8 +198,6 @@
 							<td>Automatinė</td>
 						</tr>
 						<tr>
-							<td></td>
-							<td></td>
 							<td>Kaina:</td>
 							<td><big>€70 </big><small>(€35/parai)</small></td>
 							<td><button id="continue-with-pay-now" class="button">Pasirinkti</button></td>
@@ -248,8 +225,6 @@
 							<td>Automatinė</td>
 						</tr>
 						<tr>
-							<td></td>
-							<td></td>
 							<td>Kaina:</td>
 							<td><big>€80 </big><small>(€40/parai)</small></td>
 							<td><button id="continue-with-pay-now" class="button">Pasirinkti</button></td>
@@ -258,22 +233,24 @@
 				</div>
 			</div>
 		</main>
-		
+
+<!--
 		<script>
-			var pickupPlace = document.getElementsById('select-pickup-place').value;
-			var pickupDate = document.getElementsById('pickup-date-input').value;
-			var pickupTime = document.getElementsById('pickup-time-input').value;
-			var returnPlace = document.getElementsById('select-return-place').value;
-			var returnDate = document.getElementsById('return-date-input').value;
-			var returnTime = document.getElementsById('return-time-input').value;
-			printToCarListPage() {
-				document.getElementsById('pickup-place').innerHTML = pickupPlace;
-				document.getElementsById('pickup-date').innerHTML = pickupDate;
-				document.getElementsById('pickup-time').innerHTML = pickupTime;
-				document.getElementsById('return-place').innerHTML = returnPime;
-				document.getElementsById('return-date').innerHTML = returnDate;
-				document.getElementsById('return-time').innerHTML = returnTime;
+			var pickupPlace = document.getElementById('select-pickup-place').value;
+			var pickupDate = document.getElementById('pickup-date-input').value;
+			var pickupTime = document.getElementById('pickup-time-input').value;
+			var returnPlace = document.getElementById('select-return-place').value;
+			var returnDate = document.getElementById('return-date-input').value;
+			var returnTime = document.getElementById('return-time-input').value;
+			function printToCarListPage() {
+				document.getElementById('pickup-place').innerHTML = pickupPlace;
+				document.getElementById('pickup-date').innerHTML = pickupDate;
+				document.getElementById('pickup-time').innerHTML = pickupTime;
+				document.getElementById('return-place').innerHTML = returnPime;
+				document.getElementById('return-date').innerHTML = returnDate;
+				document.getElementById('return-time').innerHTML = returnTime;
 			}
 		</script>
+-->
 	</body>
 </html>
