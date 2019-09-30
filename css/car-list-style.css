@@ -15,7 +15,7 @@
 	font-size: 14px;
 }
 
-.car-rental-period h6, a {
+.car-rental-period h6 {
 	text-align: center;
 	cursor: pointer;
 	font-size: 10px;
@@ -61,15 +61,15 @@
 	
 }
 
-.price-table {
-	text-align: center;
+.car-offer-bar td {
+	vertical-align: text-bottom;
 }
 
 #continue-with-pay-now, #continue-with-pay-later {
 	cursor: pointer;
 }
 
-@media all and (max-width: 930px) {
+@media all and (max-width: 940px) {
 	.car-offer-bar {
 		flex-flow: row wrap;
 		font-size: 80%;
@@ -79,7 +79,10 @@
 @media all and (max-width: 600px) {
 	.car-offer-bar {
 		flex-flow: row wrap;
-		font-size: 65%;
+		font-size: 50%;
+	}
+	.car-offer-bar button {
+		font-size: 9px;
 	}
 	.car-rental-period {
 		text-align: center;
@@ -92,9 +95,4 @@
 	}
 }
 
-@media all and (max-width: 470px) {
-	.car-offer-bar {
-		flex-flow: row wrap;
-		font-size: 100%;
-	}
 
