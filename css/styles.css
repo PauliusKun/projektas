@@ -82,7 +82,6 @@ figcaption {
 	height: 70px;
 	align-items:center;
 	display: flex;
-	justify-content:flex-end;
 	flex-direction: row;
 }
 
@@ -123,14 +122,17 @@ figcaption {
 	}
 	.second-header-block {
 		flex-flow: column wrap;
-		padding: 10px;
+		padding: 0px;
 		justify-content: center;
 	}
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 600px) {
 	.nav-bar {
 		font-size: 12px;
+	}
+	.nav-bar div {
+		width: 70px;
 	}
 }
 
@@ -276,8 +278,10 @@ figcaption {
 .banner-window {
 	width: 55%;
 	align-items: center;
+/*
 	display: flex;
 	justify-content: center;
+*/
 	border-radius: 6px;
 }
 
@@ -306,10 +310,11 @@ figcaption {
 }
 
 .text {
-	color: #f2f2f2;
+	color: #F2F2F2;
+	background-color: rgba(0,0,0,0.5);
 	font-size: 20px;
 	font-weight: bold;
-	padding: 8px 12px;
+	padding: 8px 0;
 	position: absolute;
 	bottom: 8px;
 	width: 100%;
@@ -415,33 +420,51 @@ figcaption {
 	padding-bottom: 20px;
 }
 
+/*
 .advantages-list hr {
 	border-top: 1px solid #EAF6F6;
 	width: 150px;
 }
+*/
 
 .advantages-list div {
-	width: 200px;
+	width: 100px;
 	margin: 5px auto;
+	padding-top: 10px;
 }
 
 .tooltip {
 	position: relative;
 	display: inline-block;
 	cursor: pointer;
+	border-bottom: 1px dotted #66BFBF;
 }
 
 .tooltip .tooltiptext {
+	margin-left: 10px;
+	transform: translate(0, -40%);
 	visibility: hidden;
 	width: 200px;
 	background-color: #66BFBF;
 	color: #fff;
 	text-align: center;
 	border-radius: 6px;
-	padding: 5px 0;
+	padding: 5px;
 	position: absolute;
 	z-index: 1;
+	content: " ";
 }
+
+.tooltip .tooltiptext::after {
+	content: " ";
+	position: absolute;
+	top: 40%;
+	right: 100%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent #66BFBF transparent transparent;
+	}
 
 .tooltip:hover .tooltiptext {
 	visibility: visible;
@@ -455,7 +478,18 @@ figcaption {
 	.tooltip .tooltiptext {
 		bottom: 100%;
 		left: 50%;
-		margin-left: -60px;
+		margin-left: -100px;
+		transform: translate(0, 0);
+	}
+	.tooltip .tooltiptext::after {
+		content: " ";
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		margin-left: -5px;
+		border-width: 5px;
+		border-style: solid;
+		border-color: #66BFBF transparent transparent transparent;
 	}
 }
 
