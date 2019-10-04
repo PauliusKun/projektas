@@ -57,6 +57,11 @@ figcaption {
 	display: flex;
 }
 
+.top-telephone-and-mail a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
 .hours-icon {
 	height: 20px;
 }
@@ -120,6 +125,12 @@ figcaption {
 		flex-flow: column wrap;
 		padding: 10px;
 		justify-content: center;
+	}
+}
+
+@media all and (max-width: 800px) {
+	.nav-bar {
+		font-size: 12px;
 	}
 }
 
@@ -294,6 +305,17 @@ figcaption {
 	display: none;
 }
 
+.text {
+	color: #f2f2f2;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
 /*
 .prev, .next {
 	cursor: pointer;
@@ -321,17 +343,6 @@ figcaption {
 	background-color: rgba(0,0,0,0.8);
 }
 */
-
-.text {
-	color: #f2f2f2;
-	font-size: 20px;
-	font-weight: bold;
-	padding: 8px 12px;
-	position: absolute;
-	bottom: 8px;
-	width: 100%;
-	text-align: center;
-}
 
 					/*5. Aside 2*/
 			
@@ -417,7 +428,6 @@ figcaption {
 .tooltip {
 	position: relative;
 	display: inline-block;
-/*	border-bottom: 1px dotted black;*/
 	cursor: pointer;
 }
 
@@ -441,6 +451,11 @@ figcaption {
 	#about {
 		padding: 10px;
 		font-size: 14px;
+	}
+	.tooltip .tooltiptext {
+		bottom: 100%;
+		left: 50%;
+		margin-left: -60px;
 	}
 }
 
