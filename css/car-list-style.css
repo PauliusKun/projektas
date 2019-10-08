@@ -82,10 +82,6 @@
 	margin: 0;
 }
 
-#continue-with-pay-now {
-	cursor: pointer;
-}
-
 @media all and (max-width: 800px) {
 	.car-offer-bar {
 		flex-flow: row wrap;
@@ -133,8 +129,8 @@
 }
 
 .modal-content {
-	background-color: #FEFEFE;
-	margin: 70px auto;
+	background-color: #fefefe;
+	margin: 50px auto;
 	padding: 10px;
 	border: 1px solid #888;
 	width: 80%;
@@ -190,15 +186,14 @@
 }
 
 .included-and-extras div {
-	margin: 10px 100px;
+	margin: 10px auto;
 }
 
 .sum-details {
 	display: flex;
 	flex-direction: row wrap;
 	justify-content: center;
-	margin-top: 250px;
-	margin-right: 20px
+	margin: 250px 20px 0 100px;
 }
 
 .button-continue {
