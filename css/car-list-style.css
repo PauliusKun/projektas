@@ -140,14 +140,18 @@
 	text-align: center;
 }
 
-.close {
+.modal-content h5 {
+	margin-left: 5px;
+}
+
+.close, .close2, .close3, .close4, .close5, .close6 {
 	color: #aaa;
 	float: right;
 	font-size: 28px;
 	font-weight: bold;
 }
 
-.close:hover, .close:focus {
+.close, .close2, .close3, .close4, .close5, .close6:hover, .close, .close2, .close3, .close4, .close5, .close6:focus {
 	color: black;
 	text-decoration: none;
 	cursor: pointer;
@@ -201,20 +205,15 @@
 }
 
 @media all and (max-width: 1000px) {
-	#selection-details {
-		margin: 10px auto;
-	}
 	#selection-details img {
 		width: 170px;
 		height: 120px;
 	}
 	#selection-details h5 {
 		margin-top: 0;
+		margin-left: 0;
 	}
 	#selection-details span {
-		margin: 0;
-	}
-	.car-and-choice-details {
 		margin: 0;
 	}
 	.car-details {
@@ -231,15 +230,20 @@
 	.included-and-extras div {
 		margin: 10px auto;
 	}
+	.included div, .extras div {
+		text-align: center;
+		margin: 0;
+	}
 	.button-continue, .sum-details {
 		margin-top: 10px;
 	}
 	.sum-details {
 		justify-content: center;
 		margin: 10px auto;
+		padding-top: 10px;
 	}
 	.button-continue {
-		width: 50%;
+		width: 60%;
 		margin: 5px auto;
 	}
 }
