@@ -129,24 +129,27 @@
 										</div>
 									</div>
 								</div>
+								<hr>
 								<form id="order-details">
 									<div class="included-and-extras">
 										<div class="included">
-											<div>Į kainą įskaičiuota</div><br><br>
-											<spam><input type="checkbox" checked>Kasko draudimas (frančizė - 400€)</spam><br>
-											<spam><input type="checkbox" checked>Privalomas draudimas</spam><br>
-											<spam><input type="checkbox" checked>400 km/para rida (papildomas km – 0,10€)</spam><br>
-											<spam><input type="checkbox" checked>24/7 pagalba kelyje</spam><br>
-											<spam><input type="checkbox">Vaikiška kėdutė (nemokamai)</spam><br>
-											<spam><input type="checkbox">GPS (nemokamai)</spam>
+											<div><h5>Į kainą įskaičiuota</h5></div>
+											<spam><input id="kasko" type="checkbox" checked value="Kasko(400)" onchange="uncheckKasko()">Kasko draudimas (frančizė - 400€)</spam><br>
+											<spam><input type="checkbox" checked disabled>Privalomas draudimas</spam><br>
+											<spam><input id="limited-mileage" type="checkbox" checked value="ribota rida">400 km/para rida (papild.0,10€/km)</spam><br>
+											<spam><input type="checkbox" checked disabled>24/7 pagalba kelyje</spam><br>
 										</div>
+										<hr>
 										<div class="extras">
-											<div>Papildomai</div><br><br>
-											<spam><input type="checkbox">Kasko draudimas (frančizė - 0€)(10€/para)</spam><br>
-											<spam><input type="checkbox">Papildomas vairuotojas (5€/para)</spam><br>
-											<spam><input type="checkbox">Neribota rida (10€/para)</spam><br>
-											<spam><input type="checkbox">Wi-Fi (3€/para)</spam>
+											<div><h5>Papildomai <small>(pažymėti reikalingus)</small></h5></div>
+											<spam><input id="full-kasko" type="checkbox" value="pilnas Kasko" onchange="uncheckKasko()">Pilnas Kasko draudimas(10€/para)</spam><br>
+											<spam><input id="unlimited-mileage" type="checkbox" value="neribota rida">Neribota rida (10€/para)</spam><br>
+											<spam><input type="checkbox" value="papildomas vairuotojas">Papildomas vairuotojas (5€/para)</spam><br>
+											<spam><input type="checkbox" value="wi-fi">Wi-Fi (3€/para)</spam><br>
+											<spam><input type="checkbox" value="kėdutė">Vaikiška kėdutė (nemokamai)</spam><br>
+											<spam><input type="checkbox" value="gps">GPS (nemokamai)</spam>
 										</div>
+										<hr>
 									</div>
 									<div class="sum-details">
 										<div>
@@ -717,6 +720,20 @@
 				document.getElementById('return-place').innerHTML = backCity;
 				document.getElementById('return-date').innerHTML = backDate;
 				document.getElementById('return-time').innerHTML = backTime;
+			}
+		</script>
+		<script>
+			var checkedKaskoInput = document.getElementById('kasko');
+			var ckeckedLimitedMileageInput = document.getElementById('limited-mileage');
+			var checkedFullKaskoInput = document.getElementById('full-kasko');
+			var checkedUnlimitedMileageInput = document.getElementById('unlimited-mileage');
+			
+			function uncheckKasko() {
+				if(checkedFullKaskoInput.checked) {
+					checkedKaskoInput.checked = false;
+				} else {
+					checkedKaskoInput.checked = true;
+				}
 			}
 		</script>
 		<script>
