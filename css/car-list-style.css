@@ -1,3 +1,5 @@
+/*1. rental period after header block*/
+
 .car-rental-period {
 	color: #11999E;
 	background-color: #EAF6F6;
@@ -34,6 +36,8 @@
 .display-cookies span {
 	margin: 0 5px;
 }
+
+/*2. car-list*/
 
 .car-offer-bar {
 	color: #11999E;
@@ -113,6 +117,8 @@
 		justify-content: center;
 	}
 }
+
+/*3. modal-window*/
 
 .modal {
 	display: none;

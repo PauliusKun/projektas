@@ -10,7 +10,7 @@
     </head>
     <body onload="getCookieAndWriteValue()">
 
-					<!-- 1. Header -->
+<!-- Header -->
 
 		<header id="header" >
 			<div class="first-header-block">
@@ -36,7 +36,7 @@
 				</div>
 			</div>
 
-					<!-- 1.2 Nav bar -->
+<!-- Nav bar -->
 
 			<div class="second-header-block">
 				<div class="logo">
@@ -50,7 +50,8 @@
 				</nav>
 			</div>
 		</header>
-					<!--3. Main-->
+		
+<!-- Main-->
 
 		<main>
 			<div class="car-rental-period">
@@ -73,6 +74,9 @@
 					<h6><a href="index.html">Redaguoti</a></h6>
 				</div>
 			</div>
+			
+<!--suzuki swift-->
+			
 			<div id="white-background" class="car-offer-bar">
 				<div>
 					<img src="images/suzuki-swift.jpg" alt="suzuki-swift-hybrid" title="suzuki-swift-hybrid-nuoma" >
@@ -96,6 +100,9 @@
 						<span>Kaina:</span>
 						<span><big>€34 </big><small>(€17/parai)</small></span>
 						<span><button id="continue-ordering" class="button" onclick="getCookieAndWriteValue()">Pasirinkti</button></span>
+						
+<!--suzuki-swift-modal-->
+						
 						<div id="my-modal" class="modal">
 							<div class="modal-content">
 								<span class="close">&times;</span>
@@ -136,15 +143,15 @@
 											<div><h5>Į kainą įskaičiuota</h5></div>
 											<span><input id="kasko" type="checkbox" checked value="Kasko(400)" onchange="uncheckKasko()">Kasko draudimas (frančizė - 400€)</span><br>
 											<span><input type="checkbox" checked disabled>Privalomas draudimas</span><br>
-											<span><input id="limited-mileage" type="checkbox" checked value="ribota rida" onchange="uncheckMileage()">400 km/para rida (papild.0,10€/km)</span><br>
+											<span><input id="limited-mileage" type="checkbox" checked value="ribota-rida" onchange="uncheckMileage()">400 km/para rida (papild.0,10€/km)</span><br>
 											<span><input type="checkbox" checked disabled>24/7 pagalba kelyje</span><br>
 										</div>
 										<hr>
 										<div class="extras">
 											<div><h5>Papildomai <small>(pažymėti reikalingus)</small></h5></div>
-											<span><input id="full-kasko" type="checkbox" value="pilnas Kasko" onchange="uncheckKasko()">Pilnas Kasko draudimas(10€/para)</span><br>
-											<span><input id="unlimited-mileage" type="checkbox" value="neribota rida" onchange="uncheckMileage()">Neribota rida (10€/para)</span><br>
-											<span><input id="extra-driver" type="checkbox" value="papildomas vairuotojas">Papildomas vairuotojas (5€/para)</span><br>
+											<span><input id="full-kasko" type="checkbox" value="pilnas-Kasko" onchange="uncheckKasko()">Pilnas Kasko draudimas(10€/para)</span><br>
+											<span><input id="unlimited-mileage" type="checkbox" value="neribota-rida" onchange="uncheckMileage()">Neribota rida (10€/para)</span><br>
+											<span><input id="extra-driver" type="checkbox" value="papildomas-vairuotojas">Papildomas vairuotojas (5€/para)</span><br>
 											<span><input id="wifi" type="checkbox" value="wi-fi">Wi-Fi (3€/para)</span><br>
 											<span><input type="checkbox" value="kėdutė">Vaikiška kėdutė (nemokamai)</span><br>
 											<span><input type="checkbox" value="gps">GPS (nemokamai)</span>
@@ -159,8 +166,8 @@
 										</div>
 										<div>
 											<span id="day-price">17</span><br>
-											<span id="price-for-extra">0</span><br>
-											<span id="total-price"><b>34</b></span>
+											<span id="price-for-extra">3</span><br>
+											<span id="total-price"><b></b></span>
 										</div>
 										<div>
 											<span>€</span><br>
@@ -177,6 +184,9 @@
 					</div>
 				</div>
 			</div>
+			
+<!--toyota yaris-->
+			
 			<div class="car-offer-bar">
 				<div>
 					<img src="images/toyota-yaris.png" alt="toyota-yaris-hybrid" title="toyota-yaris-hybrid-nuoma">
@@ -200,6 +210,9 @@
 						<span>Kaina:</span>
 						<span><big>€40 </big><small>(€20/parai)</small></span>
 						<span><button id="continue-ordering2" class="button">Pasirinkti</button></span>
+						
+<!--toyota yaris modal-->
+						
 						<div id="my-modal2" class="modal">
 							<div class="modal-content">
 								<span class="close2">&times;</span>
@@ -238,17 +251,17 @@
 									<div class="included-and-extras">
 										<div class="included">
 											<div><h5>Į kainą įskaičiuota</h5></div>
-											<span><input id="kasko" type="checkbox" checked value="Kasko(400)" onchange="uncheckKasko()">Kasko draudimas (frančizė - 400€)</span><br>
+											<span><input id="kasko2" type="checkbox" checked value="Kasko(400)" onchange="uncheckKasko2()">Kasko draudimas (frančizė - 400€)</span><br>
 											<span><input type="checkbox" checked disabled>Privalomas draudimas</span><br>
-											<span><input id="limited-mileage" type="checkbox" checked value="ribota rida" onchange="uncheckMileage()">400 km/para rida (papild.0,10€/km)</span><br>
+											<span><input id="limited-mileage2" type="checkbox" checked value="ribota-rida" onchange="uncheckMileage2()">400 km/para rida (papild.0,10€/km)</span><br>
 											<span><input type="checkbox" checked disabled>24/7 pagalba kelyje</span><br>
 										</div>
 										<hr>
 										<div class="extras">
 											<div><h5>Papildomai <small>(pažymėti reikalingus)</small></h5></div>
-											<span><input id="full-kasko" type="checkbox" value="pilnas Kasko" onchange="uncheckKasko()">Pilnas Kasko draudimas(10€/para)</span><br>
-											<span><input id="unlimited-mileage" type="checkbox" value="neribota rida" onchange="uncheckMileage()">Neribota rida (10€/para)</span><br>
-											<span><input id="extra-driver" type="checkbox" value="papildomas vairuotojas">Papildomas vairuotojas (5€/para)</span><br>
+											<span><input id="full-kasko2" type="checkbox" value="pilnas-Kasko" onchange="uncheckKasko2()">Pilnas Kasko draudimas(10€/para)</span><br>
+											<span><input id="unlimited-mileage2" type="checkbox" value="neribota-rida" onchange="uncheckMileage2()">Neribota rida (10€/para)</span><br>
+											<span><input id="extra-driver" type="checkbox" value="papildomas-vairuotojas">Papildomas vairuotojas (5€/para)</span><br>
 											<span><input id="wifi" type="checkbox" value="wi-fi">Wi-Fi (3€/para)</span><br>
 											<span><input type="checkbox" value="kėdutė">Vaikiška kėdutė (nemokamai)</span><br>
 											<span><input type="checkbox" value="gps">GPS (nemokamai)</span>
@@ -281,6 +294,9 @@
 					</div>
 				</div>
 			</div>
+			
+<!--toyota corolla-->
+			
 			<div id="white-background" class="car-offer-bar">
 				<div>
 					<img src="images/toyota-corolla-hatchback.jpg" alt="toyota-corolla-hybrid" title="toyota-corolla-hybrid-nuoma">
@@ -304,6 +320,9 @@
 						<span>Kaina:</span>
 						<span><big>€50 </big><small>(€25/parai)</small></span>
 						<span><button id="continue-ordering3" class="button">Pasirinkti</button></span>
+						
+<!--toyota corolla modal-->
+						
 						<div id="my-modal3" class="modal">
 							<div class="modal-content">
 								<span class="close3">&times;</span>
@@ -342,17 +361,17 @@
 									<div class="included-and-extras">
 										<div class="included">
 											<div><h5>Į kainą įskaičiuota</h5></div>
-											<span><input id="kasko" type="checkbox" checked value="Kasko(400)" onchange="uncheckKasko()">Kasko draudimas (frančizė - 400€)</span><br>
+											<span><input id="kasko3" type="checkbox" checked value="Kasko(400)" onchange="uncheckKasko3()">Kasko draudimas (frančizė - 400€)</span><br>
 											<span><input type="checkbox" checked disabled>Privalomas draudimas</span><br>
-											<span><input id="limited-mileage" type="checkbox" checked value="ribota rida">400 km/para rida (papild.0,10€/km)</span><br>
+											<span><input id="limited-mileage3" type="checkbox" checked value="ribota-rida" onchange="uncheckMileage3()">400 km/para rida (papild.0,10€/km)</span><br>
 											<span><input type="checkbox" checked disabled>24/7 pagalba kelyje</span><br>
 										</div>
 										<hr>
 										<div class="extras">
 											<div><h5>Papildomai <small>(pažymėti reikalingus)</small></h5></div>
-											<span><input id="full-kasko" type="checkbox" value="pilnas Kasko" onchange="uncheckKasko()">Pilnas Kasko draudimas(10€/para)</span><br>
-											<span><input id="unlimited-mileage" type="checkbox" value="neribota rida">Neribota rida (10€/para)</span><br>
-											<span><input id="extra-driver" type="checkbox" value="papildomas vairuotojas">Papildomas vairuotojas (5€/para)</span><br>
+											<span><input id="full-kasko3" type="checkbox" value="pilnas-Kasko" onchange="uncheckKasko3()">Pilnas Kasko draudimas(10€/para)</span><br>
+											<span><input id="unlimited-mileage3" type="checkbox" value="neribota-rida" onchange="uncheckMileage3()">Neribota rida (10€/para)</span><br>
+											<span><input id="extra-driver" type="checkbox" value="papildomas-vairuotojas">Papildomas vairuotojas (5€/para)</span><br>
 											<span><input id="wifi" type="checkbox" value="wi-fi">Wi-Fi (3€/para)</span><br>
 											<span><input type="checkbox" value="kėdutė">Vaikiška kėdutė (nemokamai)</span><br>
 											<span><input type="checkbox" value="gps">GPS (nemokamai)</span>
@@ -385,6 +404,9 @@
 					</div>
 				</div>
 			</div>
+			
+<!--toyota corolla touring-->
+			
 			<div class="car-offer-bar">
 				<div>
 					<img src="images/toyota-corolla-sw.png" alt="toyota-corolla-touring-hybrid" title="toyota-corolla-touring-hybrid-nuoma">
@@ -408,6 +430,9 @@
 						<span>Kaina:</span>
 						<span><big>€60 </big><small>(€30/parai)</small></span>
 						<span><button id="continue-ordering4" class="button">Pasirinkti</button></span>
+						
+<!--toyota corolla touring modal-->
+						
 						<div id="my-modal4" class="modal">
 							<div class="modal-content">
 								<span class="close4">&times;</span>
@@ -446,17 +471,17 @@
 									<div class="included-and-extras">
 										<div class="included">
 											<div><h5>Į kainą įskaičiuota</h5></div>
-											<span><input id="kasko" type="checkbox" checked value="Kasko(400)" onchange="uncheckKasko()">Kasko draudimas (frančizė - 400€)</span><br>
+											<span><input id="kasko4" type="checkbox" checked value="Kasko(400)" onchange="uncheckKasko4()">Kasko draudimas (frančizė - 400€)</span><br>
 											<span><input type="checkbox" checked disabled>Privalomas draudimas</span><br>
-											<span><input id="limited-mileage" type="checkbox" checked value="ribota rida">400 km/para rida (papild.0,10€/km)</span><br>
+											<span><input id="limited-mileage4" type="checkbox" checked value="ribota-rida" onchange="uncheckMileage4()">400 km/para rida (papild.0,10€/km)</span><br>
 											<span><input type="checkbox" checked disabled>24/7 pagalba kelyje</span><br>
 										</div>
 										<hr>
 										<div class="extras">
 											<div><h5>Papildomai <small>(pažymėti reikalingus)</small></h5></div>
-											<span><input id="full-kasko" type="checkbox" value="pilnas Kasko" onchange="uncheckKasko()">Pilnas Kasko draudimas(10€/para)</span><br>
-											<span><input id="unlimited-mileage" type="checkbox" value="neribota rida">Neribota rida (10€/para)</span><br>
-											<span><input id="extra-driver" type="checkbox" value="papildomas vairuotojas">Papildomas vairuotojas (5€/para)</span><br>
+											<span><input id="full-kasko4" type="checkbox" value="pilnas-Kasko" onchange="uncheckKasko4()">Pilnas Kasko draudimas(10€/para)</span><br>
+											<span><input id="unlimited-mileage4" type="checkbox" value="neribota-rida" onchange="uncheckMileage4()">Neribota rida (10€/para)</span><br>
+											<span><input id="extra-driver" type="checkbox" value="papildomas-vairuotojas">Papildomas vairuotojas (5€/para)</span><br>
 											<span><input id="wifi" type="checkbox" value="wi-fi">Wi-Fi (3€/para)</span><br>
 											<span><input type="checkbox" value="kėdutė">Vaikiška kėdutė (nemokamai)</span><br>
 											<span><input type="checkbox" value="gps">GPS (nemokamai)</span>
@@ -489,6 +514,9 @@
 					</div>
 				</div>
 			</div>
+			
+<!--toyota c-hr-->
+			
 			<div id="white-background" class="car-offer-bar">
 				<div>
 					<img src="images/toyota-chr.png" alt="toyota-chr-hybrid" title="toyota-chr-hybrid-nuoma">
@@ -512,6 +540,9 @@
 						<span>Kaina:</span>
 						<span><big>€70 </big><small>(€35/parai)</small></span>
 						<span><button id="continue-ordering5" class="button">Pasirinkti</button></span>
+						
+<!--toyota c-hr modal-->
+						
 						<div id="my-modal5" class="modal">
 							<div class="modal-content">
 								<span class="close5">&times;</span>
@@ -550,17 +581,17 @@
 									<div class="included-and-extras">
 										<div class="included">
 											<div><h5>Į kainą įskaičiuota</h5></div>
-											<span><input id="kasko" type="checkbox" checked value="Kasko(400)" onchange="uncheckKasko()">Kasko draudimas (frančizė - 400€)</span><br>
+											<span><input id="kasko5" type="checkbox" checked value="Kasko(400)" onchange="uncheckKasko5()">Kasko draudimas (frančizė - 400€)</span><br>
 											<span><input type="checkbox" checked disabled>Privalomas draudimas</span><br>
-											<span><input id="limited-mileage" type="checkbox" checked value="ribota rida">400 km/para rida (papild.0,10€/km)</span><br>
+											<span><input id="limited-mileage5" type="checkbox" checked value="ribota-rida" onchange="uncheckMileage5()">400 km/para rida (papild.0,10€/km)</span><br>
 											<span><input type="checkbox" checked disabled>24/7 pagalba kelyje</span><br>
 										</div>
 										<hr>
 										<div class="extras">
 											<div><h5>Papildomai <small>(pažymėti reikalingus)</small></h5></div>
-											<span><input id="full-kasko" type="checkbox" value="pilnas Kasko" onchange="uncheckKasko()">Pilnas Kasko draudimas(10€/para)</span><br>
-											<span><input id="unlimited-mileage" type="checkbox" value="neribota rida">Neribota rida (10€/para)</span><br>
-											<span><input id="extra-driver" type="checkbox" value="papildomas vairuotojas">Papildomas vairuotojas (5€/para)</span><br>
+											<span><input id="full-kasko5" type="checkbox" value="pilnas-Kasko" onchange="uncheckKasko5()">Pilnas Kasko draudimas(10€/para)</span><br>
+											<span><input id="unlimited-mileage5" type="checkbox" value="neribota-rida" onchange="uncheckMileage5()">Neribota rida (10€/para)</span><br>
+											<span><input id="extra-driver" type="checkbox" value="papildomas-vairuotojas">Papildomas vairuotojas (5€/para)</span><br>
 											<span><input id="wifi" type="checkbox" value="wi-fi">Wi-Fi (3€/para)</span><br>
 											<span><input type="checkbox" value="kėdutė">Vaikiška kėdutė (nemokamai)</span><br>
 											<span><input type="checkbox" value="gps">GPS (nemokamai)</span>
@@ -593,6 +624,9 @@
 					</div>
 				</div>
 			</div>
+			
+<!--toyota rav4-->
+			
 			<div class="car-offer-bar">
 				<div>
 					<img src="images/toyota-rav4.png" alt="toyota-rav4-hybrid" title="toyota-rav4-hybrid-nuoma">
@@ -616,6 +650,9 @@
 						<span>Kaina:</span>
 						<span><big>€80 </big><small>(€40/parai)</small></span>
 						<span><button id="continue-ordering6" class="button">Pasirinkti</button></span>
+						
+<!--toyota rav4 modal-->
+						
 						<div id="my-modal6" class="modal">
 							<div class="modal-content">
 								<span class="close6">&times;</span>
@@ -654,17 +691,17 @@
 									<div class="included-and-extras">
 										<div class="included">
 											<div><h5>Į kainą įskaičiuota</h5></div>
-											<span><input id="kasko" type="checkbox" checked value="Kasko(400)" onchange="uncheckKasko()">Kasko draudimas (frančizė - 400€)</span><br>
+											<span><input id="kasko6" type="checkbox" checked value="Kasko(400)" onchange="uncheckKasko6()">Kasko draudimas (frančizė - 400€)</span><br>
 											<span><input type="checkbox" checked disabled>Privalomas draudimas</span><br>
-											<span><input id="limited-mileage" type="checkbox" checked value="ribota rida">400 km/para rida (papild.0,10€/km)</span><br>
+											<span><input id="limited-mileage6" type="checkbox" checked value="ribota-rida" onchange="uncheckMileage6()">400 km/para rida (papild.0,10€/km)</span><br>
 											<span><input type="checkbox" checked disabled>24/7 pagalba kelyje</span><br>
 										</div>
 										<hr>
 										<div class="extras">
 											<div><h5>Papildomai <small>(pažymėti reikalingus)</small></h5></div>
-											<span><input id="full-kasko" type="checkbox" value="pilnas Kasko" onchange="uncheckKasko()">Pilnas Kasko draudimas(10€/para)</span><br>
-											<span><input id="unlimited-mileage" type="checkbox" value="neribota rida">Neribota rida (10€/para)</span><br>
-											<span><input id="extra-driver" type="checkbox" value="papildomas vairuotojas">Papildomas vairuotojas (5€/para)</span><br>
+											<span><input id="full-kasko6" type="checkbox" value="pilnas-Kasko" onchange="uncheckKasko6()">Pilnas Kasko draudimas(10€/para)</span><br>
+											<span><input id="unlimited-mileage6" type="checkbox" value="neribota-rida" onchange="uncheckMileage6()">Neribota rida (10€/para)</span><br>
+											<span><input id="extra-driver" type="checkbox" value="papildomas-vairuotojas">Papildomas vairuotojas (5€/para)</span><br>
 											<span><input id="wifi" type="checkbox" value="wi-fi">Wi-Fi (3€/para)</span><br>
 											<span><input type="checkbox" value="kėdutė">Vaikiška kėdutė (nemokamai)</span><br>
 											<span><input type="checkbox" value="gps">GPS (nemokamai)</span>
@@ -697,6 +734,9 @@
 					</div>
 				</div>
 			</div>
+			
+<!--Footer-->
+			
 			<footer>
 			<div id="footer" class="footer">
 				<a href="https://linkedin.com/in/paulius-kundrutas-30739920" target="_blank">LinkedIn</a>
@@ -706,6 +746,9 @@
 			</div>
 		</footer>
 		</main>
+		
+<!--script for get cookies-->
+		
 		<script>
 			function getCookie(cname) {
 				var name = cname + "=";
@@ -737,12 +780,15 @@
 				document.getElementById('return-time').innerHTML = backTime;
 			}
 		</script>
+		
+<!--script for checking inputs modal1-->
+		
 		<script>
 			var checkedKaskoInput = document.getElementById('kasko');
 			var ckeckedLimitedMileageInput = document.getElementById('limited-mileage');
 			var checkedFullKaskoInput = document.getElementById('full-kasko');
 			var checkedUnlimitedMileageInput = document.getElementById('unlimited-mileage');
-
+			
 			function uncheckKasko() {
 				if(checkedFullKaskoInput.checked) {
 					checkedKaskoInput.checked = false;
@@ -750,7 +796,6 @@
 					checkedKaskoInput.checked = true;
 				}
 			}
-
 			function uncheckMileage() {
 				if(checkedUnlimitedMileageInput.checked) {
 					ckeckedLimitedMileageInput.checked = false;
@@ -758,7 +803,133 @@
 					ckeckedLimitedMileageInput.checked = true;
 				}
 			}
+			
+//script for checking inputs modal2
+			
+			var checkedKaskoInput2 = document.getElementById('kasko2');
+			var ckeckedLimitedMileageInput2 = document.getElementById('limited-mileage2');
+			var checkedFullKaskoInput2 = document.getElementById('full-kasko2');
+			var checkedUnlimitedMileageInput2 = document.getElementById('unlimited-mileage2');
+			
+			function uncheckKasko2() {
+				if(checkedFullKaskoInput2.checked) {
+					checkedKaskoInput2.checked = false;
+				} else {
+					checkedKaskoInput2.checked = true;
+				}
+			}
+			function uncheckMileage2() {
+				if(checkedUnlimitedMileageInput2.checked) {
+					ckeckedLimitedMileageInput2.checked = false;
+				} else {
+					ckeckedLimitedMileageInput2.checked = true;
+				}
+			}
+			
+//script for checking inputs modal3
+			
+			var checkedKaskoInput3 = document.getElementById('kasko3');
+			var ckeckedLimitedMileageInput3 = document.getElementById('limited-mileage3');
+			var checkedFullKaskoInput3 = document.getElementById('full-kasko3');
+			var checkedUnlimitedMileageInput3 = document.getElementById('unlimited-mileage3');
+			
+			function uncheckKasko3() {
+				if(checkedFullKaskoInput3.checked) {
+					checkedKaskoInput3.checked = false;
+				} else {
+					checkedKaskoInput3.checked = true;
+				}
+			}
+			function uncheckMileage3() {
+				if(checkedUnlimitedMileageInput3.checked) {
+					ckeckedLimitedMileageInput3.checked = false;
+				} else {
+					ckeckedLimitedMileageInput3.checked = true;
+				}
+			}
+
+//script for checking inputs modal4>
+			
+			var checkedKaskoInput4 = document.getElementById('kasko4');
+			var ckeckedLimitedMileageInput4 = document.getElementById('limited-mileage4');
+			var checkedFullKaskoInput4 = document.getElementById('full-kasko4');
+			var checkedUnlimitedMileageInput4 = document.getElementById('unlimited-mileage4');
+			
+			function uncheckKasko4() {
+				if(checkedFullKaskoInput4.checked) {
+					checkedKaskoInput4.checked = false;
+				} else {
+					checkedKaskoInput4.checked = true;
+				}
+			}
+			function uncheckMileage4() {
+				if(checkedUnlimitedMileageInput4.checked) {
+					ckeckedLimitedMileageInput4.checked = false;
+				} else {
+					ckeckedLimitedMileageInput4.checked = true;
+				}
+			}
+			
+//script for checking inputs modal5>
+			
+			var checkedKaskoInput5 = document.getElementById('kasko5');
+			var ckeckedLimitedMileageInput5 = document.getElementById('limited-mileage5');
+			var checkedFullKaskoInput5 = document.getElementById('full-kasko5');
+			var checkedUnlimitedMileageInput5 = document.getElementById('unlimited-mileage5');
+			
+			function uncheckKasko5() {
+				if(checkedFullKaskoInput5.checked) {
+					checkedKaskoInput5.checked = false;
+				} else {
+					checkedKaskoInput5.checked = true;
+				}
+			}
+			function uncheckMileage5() {
+				if(checkedUnlimitedMileageInput5.checked) {
+					ckeckedLimitedMileageInput5.checked = false;
+				} else {
+					ckeckedLimitedMileageInput5.checked = true;
+				}
+			}
+			
+//script for checking inputs modal6>
+			
+			var checkedKaskoInput6 = document.getElementById('kasko6');
+			var ckeckedLimitedMileageInput6 = document.getElementById('limited-mileage6');
+			var checkedFullKaskoInput6 = document.getElementById('full-kasko6');
+			var checkedUnlimitedMileageInput6 = document.getElementById('unlimited-mileage6');
+			
+			function uncheckKasko6() {
+				if(checkedFullKaskoInput6.checked) {
+					checkedKaskoInput6.checked = false;
+				} else {
+					checkedKaskoInput6.checked = true;
+				}
+			}
+			function uncheckMileage6() {
+				if(checkedUnlimitedMileageInput6.checked) {
+					ckeckedLimitedMileageInput6.checked = false;
+				} else {
+					ckeckedLimitedMileageInput6.checked = true;
+				}
+			}
 		</script>
+		
+<!--script for calculate price-->
+		
+		<script>
+//			function sumValues() {
+			var totalPrice;
+			var dayPrice = Number(document.getElementById('day-price').value);
+			var priceForExtra = Number(document.getElementById('price-for-extra').value);
+			
+			var totalPrice = dayPrice + priceForExtra;
+			document.getElementById('total-price').innerHTML = totalPrice;
+//			}
+		</script>
+		
+<!--script for madal	-->
+		
 		<script>
 			var modal = document.getElementById("my-modal");
 			var modal2 = document.getElementById("my-modal2");
