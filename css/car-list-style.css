@@ -76,6 +76,10 @@
 	align-items: center;
 }
 
+.about-price {
+	margin-top: 10px;
+}
+
 .about-price > span {
 	font-size: 18px;
 	font-weight: bold;
@@ -138,7 +142,7 @@
 
 .modal-content {
 	background-color: #fefefe;
-	margin: 50px auto;
+	margin: 40px auto;
 	padding: 10px;
 	border: 1px solid #888;
 	width: 80%;
