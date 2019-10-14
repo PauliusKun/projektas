@@ -76,10 +76,12 @@
 	align-items: center;
 }
 
-.about-price span {
-	margin: 10px 5px;
+.about-price > span {
+	font-size: 18px;
+	font-weight: bold;
 	align-items: center;
 	vertical-align: bottom;
+	margin: 10px 5px;
 }
 
 .about-price button {
