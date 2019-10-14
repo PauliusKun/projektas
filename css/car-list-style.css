@@ -53,7 +53,7 @@
 	height: 185px;
 }
 
-#white-background {
+#white-background, #white-background2, #white-background3 {
 	background-color: #ffffff;
 }
 
@@ -170,7 +170,7 @@
 	cursor: pointer;
 }
 
-#selection-details {
+.selection-details {
 	display: flex;
 	justify-content: center;
 	flex-direction: row wrap;
@@ -178,7 +178,7 @@
 	margin-left: 20px;
 }
 
-#selection-details img {
+.selection-details img {
 	width: 250px;
 }
 
@@ -186,21 +186,21 @@
 	display: flex;
 }
 
-#order-details {
+.order-details {
 	display: flex;
 	flex-direction: row wrap;
 	justify-content: center;
 }
 
-#order-details div {
+.order-details div {
 	justify-content: center;
 }
 
-#order-details h5 {
+.order-details h5 {
 	margin-top: 0;
 }
 
-#order-details hr {
+.order-details hr {
 	display: none;
 	position: relative;
 }
@@ -233,28 +233,28 @@
 		width: 20%;
 		border-top: 1px solid #E1EDED;
 	}
-	#selection-details {
+	.selection-details {
 		justify-content: center;
 		margin: 0 auto;
 		font-size: 14px;
 	}
-	#selection-details img {
+	.selection-details img {
 		width: 170px;
 		height: 120px;
 	}
-	#selection-details span {
+	.selection-details span {
 		margin: 0;
 	}
-	#selection-details h5 {
+	.selection-details h5 {
 		margin: 0 0 5px 0;
 	}
-	#order-details {
+	.order-details {
 		font-size: 14px;
 		flex-flow: column;
 		justify-content: center;
 		margin: 10px auto;
 	}
-	#order-details hr {
+	.order-details hr {
 		display:block;
 		width: 20%;
 		border-top: 1px solid #E1EDED;

@@ -109,7 +109,7 @@
 								<div>
 									<h4>Automobilio rezervacija</h4>
 								</div>
-								<div id="selection-details">
+								<div class="selection-details">
 									<div >
 										<img src="images/suzuki-swift.jpg" alt="suzuki-swift">
 									</div>
@@ -123,21 +123,21 @@
 										<div>
 											<div><h5>Suzuki Swift ar pan.</h5></div>
 											<span>
-												<span id="pickup-place"></span>
-												<span id="pickup-date"></span>
-												<span id="pickup-time"></span>
+												<span class="pickup-place"></span>
+												<span class="pickup-date"></span>
+												<span class="pickup-time"></span>
 											</span><br>
 											<span>
-												<span id="return-place"></span>
-												<span id="return-date"></span>
-												<span id="return-time"></span><br>
+												<span class="return-place"></span>
+												<span class="return-date"></span>
+												<span class="return-time"></span><br>
 											</span>
-											<span id="calculate-period"></span>
+											<span class="calculate-period"></span>
 										</div>
 									</div>
 								</div>
 								<hr>
-								<form id="order-details">
+								<form class="order-details">
 									<div class="included-and-extras">
 										<div class="included">
 											<div><h5>Į kainą įskaičiuota</h5></div>
@@ -151,8 +151,8 @@
 											<div><h5>Papildomai <small>(pažymėti reikalingus)</small></h5></div>
 											<span><input id="full-kasko" type="checkbox" value="pilnas-Kasko" onchange="uncheckKasko()">Pilnas Kasko draudimas(10€/para)</span><br>
 											<span><input id="unlimited-mileage" type="checkbox" value="neribota-rida" onchange="uncheckMileage()">Neribota rida (10€/para)</span><br>
-											<span><input id="extra-driver" type="checkbox" value="papildomas-vairuotojas">Papildomas vairuotojas (5€/para)</span><br>
-											<span><input id="wifi" type="checkbox" value="wi-fi">Wi-Fi (3€/para)</span><br>
+											<span><input class="extra-driver" type="checkbox" value="papildomas-vairuotojas">Papildomas vairuotojas (5€/para)</span><br>
+											<span><input class="wifi" type="checkbox" value="wi-fi">Wi-Fi (3€/para)</span><br>
 											<span><input type="checkbox" value="kėdutė">Vaikiška kėdutė (nemokamai)</span><br>
 											<span><input type="checkbox" value="gps">GPS (nemokamai)</span>
 										</div>
@@ -165,9 +165,9 @@
 											<span><b>Suma iš viso:</b></span>
 										</div>
 										<div>
-											<span id="day-price">17</span><br>
-											<span id="price-for-extra">3</span><br>
-											<span id="total-price"><b></b></span>
+											<span class="day-price">17</span><br>
+											<span class="price-for-extra">3</span><br>
+											<span class="total-price"><b></b></span>
 										</div>
 										<div>
 											<span>€</span><br>
@@ -176,7 +176,7 @@
 										</div>
 									</div>
 									<div class="button-continue">
-										<button id="continue-ordering" class="button">Tęsti</button>
+										<button id="continue-to-payment" class="button">Tęsti</button>
 									</div>
 								</form>
 							</div>
@@ -219,7 +219,7 @@
 								<div>
 									<h4>Automobilio rezervacija</h4>
 								</div>
-								<div id="selection-details">
+								<div class="selection-details">
 									<div >
 										<img src="images/toyota-yaris.png" alt="toyota-yaris">
 									</div>
@@ -233,21 +233,21 @@
 										<div>
 											<div><h5>Toyota Yaris ar pan.</h5></div>
 											<span>
-												<span id="pickup-place"></span>
-												<span id="pickup-date"></span>
-												<span id="pickup-time"></span>
+												<span class="pickup-place"></span>
+												<span class="pickup-date"></span>
+												<span class="pickup-time"></span>
 											</span><br>
 											<span>
-												<span id="return-place"></span>
-												<span id="return-date"></span>
-												<span id="return-time"></span><br>
+												<span class="return-place"></span>
+												<span class="return-date"></span>
+												<span class="return-time"></span><br>
 											</span>
-											<span id="calculate-period"></span>
+											<span class="calculate-period"></span>
 										</div>
 									</div>
 								</div>
 								<hr>
-								<form id="order-details">
+								<form class="order-details">
 									<div class="included-and-extras">
 										<div class="included">
 											<div><h5>Į kainą įskaičiuota</h5></div>
@@ -261,8 +261,8 @@
 											<div><h5>Papildomai <small>(pažymėti reikalingus)</small></h5></div>
 											<span><input id="full-kasko2" type="checkbox" value="pilnas-Kasko" onchange="uncheckKasko2()">Pilnas Kasko draudimas(10€/para)</span><br>
 											<span><input id="unlimited-mileage2" type="checkbox" value="neribota-rida" onchange="uncheckMileage2()">Neribota rida (10€/para)</span><br>
-											<span><input id="extra-driver" type="checkbox" value="papildomas-vairuotojas">Papildomas vairuotojas (5€/para)</span><br>
-											<span><input id="wifi" type="checkbox" value="wi-fi">Wi-Fi (3€/para)</span><br>
+											<span><input class="extra-driver" type="checkbox" value="papildomas-vairuotojas">Papildomas vairuotojas (5€/para)</span><br>
+											<span><input class="wifi" type="checkbox" value="wi-fi">Wi-Fi (3€/para)</span><br>
 											<span><input type="checkbox" value="kėdutė">Vaikiška kėdutė (nemokamai)</span><br>
 											<span><input type="checkbox" value="gps">GPS (nemokamai)</span>
 										</div>
@@ -275,9 +275,9 @@
 											<span><b>Suma iš viso:</b></span>
 										</div>
 										<div>
-											<span id="day-price">17</span><br>
-											<span id="price-for-extra">0</span><br>
-											<span id="total-price"><b>34</b></span>
+											<span class="day-price"></span><br>
+											<span class="price-for-extra"></span><br>
+											<span class="total-price"><b></b></span>
 										</div>
 										<div>
 											<span>€</span><br>
@@ -286,7 +286,7 @@
 										</div>
 									</div>
 									<div class="button-continue">
-										<button id="continue-ordering" class="button">Tęsti</button>
+										<button id="continue-to-payment2" class="button">Tęsti</button>
 									</div>
 								</form>
 							</div>
@@ -297,7 +297,7 @@
 			
 <!--toyota corolla-->
 			
-			<div id="white-background" class="car-offer-bar">
+			<div id="white-background2" class="car-offer-bar">
 				<div>
 					<img src="images/toyota-corolla-hatchback.jpg" alt="toyota-corolla-hybrid" title="toyota-corolla-hybrid-nuoma">
 				</div>
@@ -329,7 +329,7 @@
 								<div>
 									<h4>Automobilio rezervacija</h4>
 								</div>
-								<div id="selection-details">
+								<div class="selection-details">
 									<div >
 										<img src="images/toyota-corolla-hatchback.jpg" alt="toyota-corolla-hybrid">
 									</div>
@@ -343,21 +343,21 @@
 										<div>
 											<div><h5>Toyota Corolla ar pan.</h5></div>
 											<span>
-												<span id="pickup-place"></span>
-												<span id="pickup-date"></span>
-												<span id="pickup-time"></span>
+												<span class="pickup-place"></span>
+												<span class="pickup-date"></span>
+												<span class="pickup-time"></span>
 											</span><br>
 											<span>
-												<span id="return-place"></span>
-												<span id="return-date"></span>
-												<span id="return-time"></span><br>
+												<span class="return-place"></span>
+												<span class="return-date"></span>
+												<span class="return-time"></span><br>
 											</span>
-											<span id="calculate-period"></span>
+											<span class="calculate-period"></span>
 										</div>
 									</div>
 								</div>
 								<hr>
-								<form id="order-details">
+								<form class="order-details">
 									<div class="included-and-extras">
 										<div class="included">
 											<div><h5>Į kainą įskaičiuota</h5></div>
@@ -371,8 +371,8 @@
 											<div><h5>Papildomai <small>(pažymėti reikalingus)</small></h5></div>
 											<span><input id="full-kasko3" type="checkbox" value="pilnas-Kasko" onchange="uncheckKasko3()">Pilnas Kasko draudimas(10€/para)</span><br>
 											<span><input id="unlimited-mileage3" type="checkbox" value="neribota-rida" onchange="uncheckMileage3()">Neribota rida (10€/para)</span><br>
-											<span><input id="extra-driver" type="checkbox" value="papildomas-vairuotojas">Papildomas vairuotojas (5€/para)</span><br>
-											<span><input id="wifi" type="checkbox" value="wi-fi">Wi-Fi (3€/para)</span><br>
+											<span><input class="extra-driver" type="checkbox" value="papildomas-vairuotojas">Papildomas vairuotojas (5€/para)</span><br>
+											<span><input class="wifi" type="checkbox" value="wi-fi">Wi-Fi (3€/para)</span><br>
 											<span><input type="checkbox" value="kėdutė">Vaikiška kėdutė (nemokamai)</span><br>
 											<span><input type="checkbox" value="gps">GPS (nemokamai)</span>
 										</div>
@@ -385,9 +385,9 @@
 											<span><b>Suma iš viso:</b></span>
 										</div>
 										<div>
-											<span id="day-price">17</span><br>
-											<span id="price-for-extra">0</span><br>
-											<span id="total-price"><b>34</b></span>
+											<span class="day-price"></span><br>
+											<span class="price-for-extra"></span><br>
+											<span class="total-price"><b></b></span>
 										</div>
 										<div>
 											<span>€</span><br>
@@ -396,7 +396,7 @@
 										</div>
 									</div>
 									<div class="button-continue">
-										<button id="continue-ordering" class="button">Tęsti</button>
+										<button id="continue-to-payment3" class="button">Tęsti</button>
 									</div>
 								</form>
 							</div>
@@ -439,7 +439,7 @@
 								<div>
 									<h4>Automobilio rezervacija</h4>
 								</div>
-								<div id="selection-details">
+								<div class="selection-details">
 									<div >
 										<img src="images/toyota-corolla-sw.png" alt="toyota-corolla-touring-hybrid">
 									</div>
@@ -453,21 +453,21 @@
 										<div>
 											<div><h5>Toyota Corolla ar pan.</h5></div>
 											<span>
-												<span id="pickup-place"></span>
-												<span id="pickup-date"></span>
-												<span id="pickup-time"></span>
+												<span class="pickup-place"></span>
+												<span class="pickup-date"></span>
+												<span class="pickup-time"></span>
 											</span><br>
 											<span>
-												<span id="return-place"></span>
-												<span id="return-date"></span>
-												<span id="return-time"></span><br>
+												<span class="return-place"></span>
+												<span class="return-date"></span>
+												<span class="return-time"></span><br>
 											</span>
-											<span id="calculate-period"></span>
+											<span class="calculate-period"></span>
 										</div>
 									</div>
 								</div>
 								<hr>
-								<form id="order-details">
+								<form class="order-details">
 									<div class="included-and-extras">
 										<div class="included">
 											<div><h5>Į kainą įskaičiuota</h5></div>
@@ -481,8 +481,8 @@
 											<div><h5>Papildomai <small>(pažymėti reikalingus)</small></h5></div>
 											<span><input id="full-kasko4" type="checkbox" value="pilnas-Kasko" onchange="uncheckKasko4()">Pilnas Kasko draudimas(10€/para)</span><br>
 											<span><input id="unlimited-mileage4" type="checkbox" value="neribota-rida" onchange="uncheckMileage4()">Neribota rida (10€/para)</span><br>
-											<span><input id="extra-driver" type="checkbox" value="papildomas-vairuotojas">Papildomas vairuotojas (5€/para)</span><br>
-											<span><input id="wifi" type="checkbox" value="wi-fi">Wi-Fi (3€/para)</span><br>
+											<span><input class="extra-driver" type="checkbox" value="papildomas-vairuotojas">Papildomas vairuotojas (5€/para)</span><br>
+											<span><input class="wifi" type="checkbox" value="wi-fi">Wi-Fi (3€/para)</span><br>
 											<span><input type="checkbox" value="kėdutė">Vaikiška kėdutė (nemokamai)</span><br>
 											<span><input type="checkbox" value="gps">GPS (nemokamai)</span>
 										</div>
@@ -495,9 +495,9 @@
 											<span><b>Suma iš viso:</b></span>
 										</div>
 										<div>
-											<span id="day-price">17</span><br>
-											<span id="price-for-extra">0</span><br>
-											<span id="total-price"><b>34</b></span>
+											<span class="day-price"></span><br>
+											<span class="price-for-extra"></span><br>
+											<span class="total-price"><b></b></span>
 										</div>
 										<div>
 											<span>€</span><br>
@@ -506,7 +506,7 @@
 										</div>
 									</div>
 									<div class="button-continue">
-										<button id="continue-ordering" class="button">Tęsti</button>
+										<button id="continue-to-payment4" class="button">Tęsti</button>
 									</div>
 								</form>
 							</div>
@@ -517,7 +517,7 @@
 			
 <!--toyota c-hr-->
 			
-			<div id="white-background" class="car-offer-bar">
+			<div id="white-background3" class="car-offer-bar">
 				<div>
 					<img src="images/toyota-chr.png" alt="toyota-chr-hybrid" title="toyota-chr-hybrid-nuoma">
 				</div>
@@ -549,7 +549,7 @@
 								<div>
 									<h4>Automobilio rezervacija</h4>
 								</div>
-								<div id="selection-details">
+								<div class="selection-details">
 									<div >
 										<img src="images/toyota-chr.png" alt="toyota-chr-hybrid">
 									</div>
@@ -563,21 +563,21 @@
 										<div>
 											<div><h5>Toyota C-HR ar pan.</h5></div>
 											<span>
-												<span id="pickup-place"></span>
-												<span id="pickup-date"></span>
-												<span id="pickup-time"></span>
+												<span class="pickup-place"></span>
+												<span class="pickup-date"></span>
+												<span class="pickup-time"></span>
 											</span><br>
 											<span>
-												<span id="return-place"></span>
-												<span id="return-date"></span>
-												<span id="return-time"></span><br>
+												<span class="return-place"></span>
+												<span class="return-date"></span>
+												<span class="return-time"></span><br>
 											</span>
-											<span id="calculate-period"></span>
+											<span class="calculate-period"></span>
 										</div>
 									</div>
 								</div>
 								<hr>
-								<form id="order-details">
+								<form class="order-details">
 									<div class="included-and-extras">
 										<div class="included">
 											<div><h5>Į kainą įskaičiuota</h5></div>
@@ -591,8 +591,8 @@
 											<div><h5>Papildomai <small>(pažymėti reikalingus)</small></h5></div>
 											<span><input id="full-kasko5" type="checkbox" value="pilnas-Kasko" onchange="uncheckKasko5()">Pilnas Kasko draudimas(10€/para)</span><br>
 											<span><input id="unlimited-mileage5" type="checkbox" value="neribota-rida" onchange="uncheckMileage5()">Neribota rida (10€/para)</span><br>
-											<span><input id="extra-driver" type="checkbox" value="papildomas-vairuotojas">Papildomas vairuotojas (5€/para)</span><br>
-											<span><input id="wifi" type="checkbox" value="wi-fi">Wi-Fi (3€/para)</span><br>
+											<span><input class="extra-driver" type="checkbox" value="papildomas-vairuotojas">Papildomas vairuotojas (5€/para)</span><br>
+											<span><input class="wifi" type="checkbox" value="wi-fi">Wi-Fi (3€/para)</span><br>
 											<span><input type="checkbox" value="kėdutė">Vaikiška kėdutė (nemokamai)</span><br>
 											<span><input type="checkbox" value="gps">GPS (nemokamai)</span>
 										</div>
@@ -605,9 +605,9 @@
 											<span><b>Suma iš viso:</b></span>
 										</div>
 										<div>
-											<span id="day-price">17</span><br>
-											<span id="price-for-extra">0</span><br>
-											<span id="total-price"><b>34</b></span>
+											<span class="day-price"></span><br>
+											<span class="price-for-extra"></span><br>
+											<span class="total-price"><b></b></span>
 										</div>
 										<div>
 											<span>€</span><br>
@@ -616,7 +616,7 @@
 										</div>
 									</div>
 									<div class="button-continue">
-										<button id="continue-ordering" class="button">Tęsti</button>
+										<button id="continue-to-ordering5" class="button">Tęsti</button>
 									</div>
 								</form>
 							</div>
@@ -659,7 +659,7 @@
 								<div>
 									<h4>Automobilio rezervacija</h4>
 								</div>
-								<div id="selection-details">
+								<div class="selection-details">
 									<div >
 										<img src="images/toyota-rav4.png" alt="toyota-rav4-hybrid">
 									</div>
@@ -673,21 +673,21 @@
 										<div>
 											<div><h5>Toyota Rav4 ar pan.</h5></div>
 											<span>
-												<span id="pickup-place"></span>
-												<span id="pickup-date"></span>
-												<span id="pickup-time"></span>
+												<span class="pickup-place"></span>
+												<span class="pickup-date"></span>
+												<span class="pickup-time"></span>
 											</span><br>
 											<span>
-												<span id="return-place"></span>
-												<span id="return-date"></span>
-												<span id="return-time"></span><br>
+												<span class="return-place"></span>
+												<span class="return-date"></span>
+												<span class="return-time"></span><br>
 											</span>
-											<span id="calculate-period"></span>
+											<span class="calculate-period"></span>
 										</div>
 									</div>
 								</div>
 								<hr>
-								<form id="order-details">
+								<form class="order-details">
 									<div class="included-and-extras">
 										<div class="included">
 											<div><h5>Į kainą įskaičiuota</h5></div>
@@ -701,8 +701,8 @@
 											<div><h5>Papildomai <small>(pažymėti reikalingus)</small></h5></div>
 											<span><input id="full-kasko6" type="checkbox" value="pilnas-Kasko" onchange="uncheckKasko6()">Pilnas Kasko draudimas(10€/para)</span><br>
 											<span><input id="unlimited-mileage6" type="checkbox" value="neribota-rida" onchange="uncheckMileage6()">Neribota rida (10€/para)</span><br>
-											<span><input id="extra-driver" type="checkbox" value="papildomas-vairuotojas">Papildomas vairuotojas (5€/para)</span><br>
-											<span><input id="wifi" type="checkbox" value="wi-fi">Wi-Fi (3€/para)</span><br>
+											<span><input class="extra-driver" type="checkbox" value="papildomas-vairuotojas">Papildomas vairuotojas (5€/para)</span><br>
+											<span><input class="wifi" type="checkbox" value="wi-fi">Wi-Fi (3€/para)</span><br>
 											<span><input type="checkbox" value="kėdutė">Vaikiška kėdutė (nemokamai)</span><br>
 											<span><input type="checkbox" value="gps">GPS (nemokamai)</span>
 										</div>
@@ -715,9 +715,9 @@
 											<span><b>Suma iš viso:</b></span>
 										</div>
 										<div>
-											<span id="day-price">17</span><br>
-											<span id="price-for-extra">0</span><br>
-											<span id="total-price"><b>34</b></span>
+											<span class="day-price"></span><br>
+											<span class="price-for-extra"></span><br>
+											<span class="total-price"><b></b></span>
 										</div>
 										<div>
 											<span>€</span><br>
@@ -726,7 +726,7 @@
 										</div>
 									</div>
 									<div class="button-continue">
-										<button id="continue-ordering" class="button">Tęsti</button>
+										<button id="continue-to-payment6" class="button">Tęsti</button>
 									</div>
 								</form>
 							</div>
@@ -746,9 +746,12 @@
 			</div>
 		</footer>
 		</main>
+		<script src="scripts/indexScript.js"></script>
+		<script src="scripts/carListScript.js"></script>
 		
 <!--script for get cookies-->
 		
+<!--
 		<script>
 			function getCookie(cname) {
 				var name = cname + "=";
@@ -780,244 +783,6 @@
 				document.getElementById('return-time').innerHTML = backTime;
 			}
 		</script>
-		
-<!--script for checking inputs modal1-->
-		
-		<script>
-			var checkedKaskoInput = document.getElementById('kasko');
-			var ckeckedLimitedMileageInput = document.getElementById('limited-mileage');
-			var checkedFullKaskoInput = document.getElementById('full-kasko');
-			var checkedUnlimitedMileageInput = document.getElementById('unlimited-mileage');
-			
-			function uncheckKasko() {
-				if(checkedFullKaskoInput.checked) {
-					checkedKaskoInput.checked = false;
-				} else {
-					checkedKaskoInput.checked = true;
-				}
-			}
-			function uncheckMileage() {
-				if(checkedUnlimitedMileageInput.checked) {
-					ckeckedLimitedMileageInput.checked = false;
-				} else {
-					ckeckedLimitedMileageInput.checked = true;
-				}
-			}
-			
-//script for checking inputs modal2
-			
-			var checkedKaskoInput2 = document.getElementById('kasko2');
-			var ckeckedLimitedMileageInput2 = document.getElementById('limited-mileage2');
-			var checkedFullKaskoInput2 = document.getElementById('full-kasko2');
-			var checkedUnlimitedMileageInput2 = document.getElementById('unlimited-mileage2');
-			
-			function uncheckKasko2() {
-				if(checkedFullKaskoInput2.checked) {
-					checkedKaskoInput2.checked = false;
-				} else {
-					checkedKaskoInput2.checked = true;
-				}
-			}
-			function uncheckMileage2() {
-				if(checkedUnlimitedMileageInput2.checked) {
-					ckeckedLimitedMileageInput2.checked = false;
-				} else {
-					ckeckedLimitedMileageInput2.checked = true;
-				}
-			}
-			
-//script for checking inputs modal3
-			
-			var checkedKaskoInput3 = document.getElementById('kasko3');
-			var ckeckedLimitedMileageInput3 = document.getElementById('limited-mileage3');
-			var checkedFullKaskoInput3 = document.getElementById('full-kasko3');
-			var checkedUnlimitedMileageInput3 = document.getElementById('unlimited-mileage3');
-			
-			function uncheckKasko3() {
-				if(checkedFullKaskoInput3.checked) {
-					checkedKaskoInput3.checked = false;
-				} else {
-					checkedKaskoInput3.checked = true;
-				}
-			}
-			function uncheckMileage3() {
-				if(checkedUnlimitedMileageInput3.checked) {
-					ckeckedLimitedMileageInput3.checked = false;
-				} else {
-					ckeckedLimitedMileageInput3.checked = true;
-				}
-			}
-
-//script for checking inputs modal4>
-			
-			var checkedKaskoInput4 = document.getElementById('kasko4');
-			var ckeckedLimitedMileageInput4 = document.getElementById('limited-mileage4');
-			var checkedFullKaskoInput4 = document.getElementById('full-kasko4');
-			var checkedUnlimitedMileageInput4 = document.getElementById('unlimited-mileage4');
-			
-			function uncheckKasko4() {
-				if(checkedFullKaskoInput4.checked) {
-					checkedKaskoInput4.checked = false;
-				} else {
-					checkedKaskoInput4.checked = true;
-				}
-			}
-			function uncheckMileage4() {
-				if(checkedUnlimitedMileageInput4.checked) {
-					ckeckedLimitedMileageInput4.checked = false;
-				} else {
-					ckeckedLimitedMileageInput4.checked = true;
-				}
-			}
-			
-//script for checking inputs modal5>
-			
-			var checkedKaskoInput5 = document.getElementById('kasko5');
-			var ckeckedLimitedMileageInput5 = document.getElementById('limited-mileage5');
-			var checkedFullKaskoInput5 = document.getElementById('full-kasko5');
-			var checkedUnlimitedMileageInput5 = document.getElementById('unlimited-mileage5');
-			
-			function uncheckKasko5() {
-				if(checkedFullKaskoInput5.checked) {
-					checkedKaskoInput5.checked = false;
-				} else {
-					checkedKaskoInput5.checked = true;
-				}
-			}
-			function uncheckMileage5() {
-				if(checkedUnlimitedMileageInput5.checked) {
-					ckeckedLimitedMileageInput5.checked = false;
-				} else {
-					ckeckedLimitedMileageInput5.checked = true;
-				}
-			}
-			
-//script for checking inputs modal6>
-			
-			var checkedKaskoInput6 = document.getElementById('kasko6');
-			var ckeckedLimitedMileageInput6 = document.getElementById('limited-mileage6');
-			var checkedFullKaskoInput6 = document.getElementById('full-kasko6');
-			var checkedUnlimitedMileageInput6 = document.getElementById('unlimited-mileage6');
-			
-			function uncheckKasko6() {
-				if(checkedFullKaskoInput6.checked) {
-					checkedKaskoInput6.checked = false;
-				} else {
-					checkedKaskoInput6.checked = true;
-				}
-			}
-			function uncheckMileage6() {
-				if(checkedUnlimitedMileageInput6.checked) {
-					ckeckedLimitedMileageInput6.checked = false;
-				} else {
-					ckeckedLimitedMileageInput6.checked = true;
-				}
-			}
-		</script>
-		
-<!--script for calculate price-->
-		
-		<script>
-//			function sumValues() {
-			var totalPrice;
-			var dayPrice = Number(document.getElementById('day-price').value);
-			var priceForExtra = Number(document.getElementById('price-for-extra').value);
-			
-			var totalPrice = dayPrice + priceForExtra;
-			document.getElementById('total-price').innerHTML = totalPrice;
-//			}
-		</script>
-		
-<!--script for madal	-->
-		
-		<script>
-			var modal = document.getElementById("my-modal");
-			var modal2 = document.getElementById("my-modal2");
-			var modal3 = document.getElementById("my-modal3");
-			var modal4 = document.getElementById("my-modal4");
-			var modal5 = document.getElementById("my-modal5");
-			var modal6 = document.getElementById("my-modal6");
-			var btn = document.getElementById("continue-ordering");
-			var btn2 = document.getElementById("continue-ordering2");
-			var btn3 = document.getElementById("continue-ordering3");
-			var btn4 = document.getElementById("continue-ordering4");
-			var btn5 = document.getElementById("continue-ordering5");
-			var btn6 = document.getElementById("continue-ordering6");
-			var span = document.getElementsByClassName("close")[0];
-			var span2 = document.getElementsByClassName("close2")[0];
-			var span3 = document.getElementsByClassName("close3")[0];
-			var span4 = document.getElementsByClassName("close4")[0];
-			var span5 = document.getElementsByClassName("close5")[0];
-			var span6 = document.getElementsByClassName("close6")[0];
-
-			btn.onclick = function() {
-				modal.style.display = "block";
-			}
-			btn2.onclick = function() {
-				modal2.style.display = "block";
-			}
-			btn3.onclick = function() {
-				modal3.style.display = "block";
-			}
-			btn4.onclick = function() {
-				modal4.style.display = "block";
-			}
-			btn5.onclick = function() {
-				modal5.style.display = "block";
-			}
-			btn6.onclick = function() {
-				modal6.style.display = "block";
-			}
-
-			span.onclick = function() {
-				modal.style.display = "none";
-			}
-			span2.onclick = function() {
-				modal2.style.display = "none";
-			}
-			span3.onclick = function() {
-				modal3.style.display = "none";
-			}
-			span4.onclick = function() {
-				modal4.style.display = "none";
-			}
-			span5.onclick = function() {
-				modal5.style.display = "none";
-			}
-			span6.onclick = function() {
-				modal6.style.display = "none";
-			}
-
-			window.onclick = function(event) {
-			if (event.target == modal) {
-				modal.style.display = "none";
-				}
-			}
-			window.onclick = function(event) {
-			if (event.target == modal2) {
-				modal2.style.display = "none";
-				}
-			}
-			window.onclick = function(event) {
-			if (event.target == modal3) {
-				modal3.style.display = "none";
-				}
-			}
-			window.onclick = function(event) {
-			if (event.target == modal4) {
-				modal4.style.display = "none";
-				}
-			}
-			window.onclick = function(event) {
-			if (event.target == modal5) {
-				modal5.style.display = "none";
-				}
-			}
-			window.onclick = function(event) {
-			if (event.target == modal6) {
-				modal6.style.display = "none";
-				}
-			}
-		</script>
+-->
 	</body>
 </html>
